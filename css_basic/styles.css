@@ -38,3 +38,15 @@ header li.logo {
 footer {
     background-color: rgb(229, 247, 229);
 }
+
+a:link {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(104, 91, 91);
+}
+
+a:active {
+    color: rgb(11, 46, 160);
+}
