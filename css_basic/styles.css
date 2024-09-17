@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: rgb(233, 250, 248);
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: rgb(190, 219, 216);
+    border-left: 3px solid black;
+}
+
+header {
+    background: rgb(229, 247, 229);
+}
+
+header li a {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+header li.logo {
+    font-size: 100px;
+}
+
+footer {
+    background-color: rgb(229, 247, 229);
+}
